@@ -2,8 +2,11 @@ def mergeSort(A):
     n = len(A)
     if n <=1:
         return A
+    print(A[:n//2])
+    print(A[n//2:])
     L = mergeSort(A[:n//2])
     R = mergeSort(A[n//2:])
+    
 
     B = merge(L,R)
 
