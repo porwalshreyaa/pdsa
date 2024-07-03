@@ -1,4 +1,5 @@
 '''
+Q1
 Given an array arr[] of n positive integers which can contain integers from 1 to p where elements can be repeated or can be absent from the array.
 Your task is to count the frequency of all numbers from 1 to n. Do modify the array in-place changes in arr[], such that are[i]=frequency(i) and assume 1-based indexing.
 
@@ -36,3 +37,16 @@ class Solution:
             if 1 <= i <= N:
                 arr[i]=d[i]
         return arr
+
+
+'''
+Q2
+The frequency of an element is the number of times it occurs in an array.
+You are given an integer array nums and an integer k. In one operation, you can choose an index of nums and increment the element at that index by 1.
+
+Return the maximum possible frequency of an element after performing at most k operations.
+
+example
+
+
+'''
