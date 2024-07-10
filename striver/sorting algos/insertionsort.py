@@ -8,3 +8,8 @@ class Solution:
             position -= 1
         
         alist[position] = current_value
+        
+    def insertionSort(self, alist, n):
+        for i in range(1, n):
+            self.insert(alist, i)
+        return alist
